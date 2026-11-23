@@ -1,0 +1,61 @@
+{
+  "_ghi_chu": "VÍ DỤ MINH HỌA cấu trúc dữ liệu, KHÔNG phải gói thầu thật. Mọi con số là giả định.",
+  "ngay_lap": "2026-09-29",
+  "cong_trinh": "Nhà lớp học 2 tầng Trường TH (ví dụ)",
+  "goi_thau": "Gói thầu số 05: Thi công xây dựng công trình",
+  "dia_diem": "Xã (ví dụ), tỉnh Quảng Trị",
+  "so_tbmt": "IB26xxxxxxx-00",
+  "ben_moi_thau": "Ban QLDA (ví dụ)",
+  "chu_dau_tu": "UBND xã (ví dụ)",
+  "nguon_von": "Ngân sách tỉnh",
+  "hinh_thuc": "Đấu thầu rộng rãi trong nước, qua mạng",
+  "phuong_thuc": "Một giai đoạn một túi hồ sơ",
+  "loai_hop_dong": "Trọn gói",
+  "gia_goi_thau": 6500000000,
+  "thoi_gian_thuc_hien_ngay": 240,
+  "dong_thau": "2026-10-20 09:00",
+  "hieu_luc_hsdt_ngay": 90,
+  "bao_dam_du_thau": 65000000,
+  "hieu_luc_bddt_ngay": 120,
+  "nguon_hsmt": "E-HSMT_GoiThau05.pdf",
+  "yeu_cau": [
+    {
+      "nhom": "Tư cách hợp lệ",
+      "noi_dung": "Có chứng chỉ năng lực hoạt động xây dựng lĩnh vực thi công công trình dân dụng, hạng III trở lên",
+      "trich_dan": "Ch.III, Bảng 01, mục 1, tr. 31/88",
+      "dap_ung": "CCNL số ... hạng III, còn hạn đến ... (lấy từ HoSoNangLuc sheet 1)",
+      "trang_thai": "ĐẠT",
+      "viec_can_lam": "Scan bản chứng chỉ mới nhất",
+      "phu_trach": "Hành chính",
+      "han": "2026-10-10"
+    },
+    {
+      "nhom": "Hợp đồng tương tự",
+      "noi_dung": "Tối thiểu 01 hợp đồng tương tự: công trình dân dụng cấp III, giá trị ≥ 4.550.000.000 đ, đã hoàn thành trong 5 năm gần đây",
+      "trich_dan": "Ch.III, Bảng 01, mục 3, tr. 33/88",
+      "dap_ung": "Chưa có dữ liệu hợp đồng trong HoSoNangLuc",
+      "trang_thai": "CHƯA RÕ",
+      "viec_can_lam": "Anh Thành chọn hợp đồng, bổ sung biên bản nghiệm thu, thanh lý",
+      "phu_trach": "Anh Thành",
+      "han": "2026-10-08"
+    }
+  ],
+  "go_no_go": [],
+  "ke_hoach": [
+    {"viec": "Đọc, phân tích E-HSMT, quyết định Go/No-go", "phu_trach": "Đấu thầu + Giám đốc", "truoc_dong_thau_ngay": 18},
+    {"viec": "Gửi câu hỏi làm rõ E-HSMT (nếu có)", "phu_trach": "Đấu thầu", "truoc_dong_thau_ngay": 15, "ghi_chu": "Kiểm tra thời hạn làm rõ quy định trong E-HSMT"},
+    {"viec": "Mở bảo lãnh dự thầu tại ngân hàng", "phu_trach": "Giám đốc", "truoc_dong_thau_ngay": 5},
+    {"viec": "Bóc khối lượng, lập bảng giá dự thầu", "phu_trach": "Dự toán", "truoc_dong_thau_ngay": 6},
+    {"viec": "Thuyết minh biện pháp tổ chức thi công, tiến độ", "phu_trach": "Đấu thầu", "truoc_dong_thau_ngay": 5},
+    {"viec": "Soát toàn bộ E-HSDT", "phu_trach": "Kiểm soát HSDT", "truoc_dong_thau_ngay": 3},
+    {"viec": "Nhập webform, ký số, nộp thầu trên Hệ thống mạng đấu thầu quốc gia", "phu_trach": "Giám đốc", "truoc_dong_thau_ngay": 1, "ghi_chu": "Không nộp sát giờ đóng thầu"}
+  ],
+  "danh_muc_nop": [
+    {"tai_lieu": "Đơn dự thầu", "can_cu": "Mẫu số 01, Ch.IV", "hinh_thuc": "Webform"},
+    {"tai_lieu": "Bảo đảm dự thầu (thư bảo lãnh)", "can_cu": "Mẫu số 04, Ch.IV", "hinh_thuc": "Bản scan + bản điện tử"},
+    {"tai_lieu": "Bảng giá dự thầu", "can_cu": "Mẫu số ..., Ch.IV", "hinh_thuc": "Webform"}
+  ],
+  "cau_hoi_lam_ro": [
+    {"noi_dung": "Bảng khối lượng mục 2.15 ghi 125 m³ nhưng bản vẽ KC-03 tính được khoảng 140 m³. Kính đề nghị Bên mời thầu làm rõ khối lượng dùng để chào giá.", "trich_dan": "Ch.V, BKL mục 2.15"}
+  ]
+}

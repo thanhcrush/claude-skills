@@ -1,0 +1,36 @@
+{
+ "_ghi_chu": "MẪU CẤU TRÚC. Tên gói thầu, khối lượng, đơn giá bên dưới là SỐ MINH HỌA, không dùng cho dự thầu thật. Tỷ lệ chi phí để null: điền từ E-HSMT hoặc lap-du-toan mục 4, kèm nguồn.",
+ "goi_thau": {
+  "ten": "[Chờ bổ sung] Tên gói thầu theo E-HSMT",
+  "ma_tbmt": "[Chờ bổ sung]",
+  "ben_moi_thau": "[Chờ bổ sung]",
+  "dia_diem": "[Chờ bổ sung]",
+  "hop_dong": "[Chờ bổ sung] đơn giá cố định / trọn gói / điều chỉnh, theo E-HSMT",
+  "gia_goi_thau": null,
+  "nguon_gia_goi_thau": "[Chờ bổ sung] E-HSMT, chương, mục, trang"
+ },
+ "don_vi_lap": "Công ty TNHH Nghĩa Đạt",
+ "ngay": "[Chờ bổ sung]",
+ "ty_le": {
+  "chi_phi_chung": {"gia_tri": null, "nguon": "[Chờ bổ sung] E-HSMT hoặc TT 36/2026 Bảng 3.3"},
+  "thu_nhap": {"gia_tri": null, "nguon": "[Chờ bổ sung] TT 36/2026 Bảng 3.6"},
+  "gtgt": {"gia_tri": null, "nguon": "[Chờ bổ sung] mức và căn cứ theo E-HSMT"},
+  "khong_xd_kl": {"gia_tri": 0, "nguon": "Không áp dụng (đổi khi E-HSMT yêu cầu)"},
+  "nha_tam": {"gia_tri": 0, "nguon": "Không áp dụng (đổi khi E-HSMT cho tách riêng)"},
+  "giam_gia": {"gia_tri": 0, "nguon": "Chờ Giám đốc quyết định"}
+ },
+ "kich_ban_giam_gia": [],
+ "boq": [
+  {"loai": "muc", "ten": "I. PHẦN MÓNG (minh họa)"},
+  {"stt": "1", "ma": "", "ten": "[Số minh họa] Đào đất hố móng", "dvt": "m3", "kl": 100,
+   "nguon_kl": "[Minh họa] E-HSMT Chương V, Mục ?, tr. ?/N",
+   "don_gia": {"vl": 0, "nc": 80000, "m": 40000, "nguon": "[Số minh họa, thay bằng đơn giá có nguồn và kỳ giá]"}},
+  {"stt": "2", "ma": "", "ten": "[Số minh họa] Bê tông móng", "dvt": "m3", "kl": 20,
+   "nguon_kl": "[Minh họa] E-HSMT Chương V, Mục ?, tr. ?/N",
+   "don_gia": null},
+  {"loai": "muc", "ten": "II. PHẦN THÂN (minh họa)"},
+  {"stt": "3", "ma": "", "ten": "[Số minh họa] Xây tường gạch", "dvt": "m3", "kl": 50,
+   "nguon_kl": "[Minh họa] E-HSMT Chương V, Mục ?, tr. ?/N",
+   "don_gia": {"vl": 900000, "nc": 300000, "m": 20000, "tham_chieu": 1500000, "nguon": "[Số minh họa]"}}
+ ]
+}

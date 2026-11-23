@@ -1,0 +1,114 @@
+{
+  "_ghi_chu": "Mẫu dữ liệu cho scripts/tao_rfi.py. Vụ việc: cửa D-08 GreenTech Tower (EI 60 trên KT-102 vs EI 90 trong CDKT-PCCC-REV02). **chữ** = in đậm. Chỗ chưa biết để '…..'.",
+  "don_vi_gui": "Công ty TNHH Nghĩa Đạt",
+  "so": "RFI-ARC-001",
+  "dia_danh": "Quảng Trị",
+  "ngay": "….. tháng ….. năm 2026",
+  "trich_yeu": [
+    "V/v thống nhất phương án xử lý cửa thoát nạn buồng thang D-08",
+    "theo giới hạn chịu lửa EI 90 để bảo đảm nghiệm thu PCCC công trình"
+  ],
+  "kinh_gui": [
+    "Công ty Cổ phần Tư vấn Thiết kế Kiến trúc & Xây dựng V-Design;",
+    "Ban Quản lý dự án Tổ hợp GreenTech Tower."
+  ],
+  "thong_tin_chung": [
+    ["Dự án", "Tổ hợp Thương mại, Văn phòng & Căn hộ cao cấp GreenTech Tower (28 tầng nổi, 03 tầng hầm; chiều cao PCCC 98,5 m)"],
+    ["Chủ đầu tư", "Công ty Cổ phần Đầu tư Phát triển Công nghệ GreenTech"],
+    ["Gói thầu", "Kiến trúc & Hoàn thiện"],
+    ["Hạng mục", "Cửa thoát nạn buồng thang bộ, ký hiệu D-08"],
+    ["Đơn vị gửi", "Công ty TNHH Nghĩa Đạt (Nhà thầu)"],
+    ["Tài liệu liên quan", "Chỉ dẫn kỹ thuật PCCC số CDKT-PCCC-REV02; Bản vẽ KT-102 REV.02"],
+    ["Mức độ", "**KHẨN — ảnh hưởng trực tiếp đến nghiệm thu PCCC và tiến độ đặt hàng**"],
+    ["Thời hạn đề nghị trả lời", "Trước ngày ….. /….. /2026"]
+  ],
+  "can_cu": [
+    "Chỉ dẫn kỹ thuật hệ thống PCCC & vật liệu ngăn cháy cách nhiệt công trình, số hiệu **CDKT-PCCC-REV02** phát hành ngày 15/05/2026 (Tập 03), trong đó: Mục 1.3 (nguyên tắc pháp lý ưu tiên); Điều 5.3 khoản 1, 2, 3, 4 (trang 42 bộ gốc); Mục 8.1, 8.2 (nghiệm thu vật tư và bàn giao);",
+    "Bản vẽ **KT-102 — Thống kê cửa** (phát hành REV.02 — trang 15): Bảng thống kê cửa đi tầng 1 đến tầng 5; ghi chú kỹ thuật riêng cho cửa D-08 và ghi chú của Bộ phận đấu thầu & dự toán (QS Note);",
+    "QCVN 06:2022/BXD — Quy chuẩn kỹ thuật quốc gia về An toàn cháy cho nhà và công trình; Sửa đổi 1:2023 QCVN 06:2022/BXD ban hành kèm Thông tư số 09/2023/TT-BXD;",
+    "TCVN 9383:2012 — Thử nghiệm khả năng chịu lửa — Cửa đi và cửa ngăn cháy."
+  ],
+  "sai_khac": {
+    "tieu_de": "NỘI DUNG SAI KHÁC GIỮA CHỈ DẪN KỸ THUẬT VÀ BẢN VẼ",
+    "mo_dau": "Qua rà soát hồ sơ, Nhà thầu nhận thấy quy cách cửa D-08 trên bản vẽ KT-102 REV.02 không phù hợp với Điều 5.3 của Chỉ dẫn kỹ thuật CDKT-PCCC-REV02, cụ thể:",
+    "bang": {
+      "cot": ["STT", "Chỉ tiêu", "CDKT-PCCC-REV02 (Điều 5.3)", "KT-102 REV.02 (cửa D-08)", "Nhận xét"],
+      "rong_cm": [1.2, 2.8, 5.3, 3.4, 3.8],
+      "co_chu": 11,
+      "dong": [
+        ["1", "**Giới hạn chịu lửa**", "**≥ EI 90** (90 phút liên tục); không chấp thuận EI 60, EI 45 cho buồng thang trục (2-3, C-D) và (6-7, A-B) — Đ.5.3 k.1a, 1b", "**EI 60** (60 phút)", "**Không đạt.** Thấp hơn 30 phút; thuộc trường hợp bị cấm tại k.1b"],
+        ["2", "**Tỷ trọng bông khoáng**", "Rockwool **≥ 120 kg/m³** — Đ.5.3 k.2", "Rockwool **100 kg/m³**", "**Không đạt.** Thiếu 20 kg/m³"],
+        ["3", "**Tấm chống cháy MgO**", "Tấm Magie Oxit **dày ≥ 5 mm mỗi bên** — Đ.5.3 k.2", "**Không yêu cầu**", "**Không đạt.** Thiếu lớp cấu tạo bảo đảm I ≥ 90"],
+        ["4", "**Thép khung, thép cánh**", "Khung thép mạ điện 1,5 mm, sơn tĩnh điện; cánh thép tấm mạ kẽm 1,2 mm mỗi mặt; cánh dày ≥ 50 mm — Đ.5.3 k.2", "Thép mạ kẽm 1,2 mm (không tách khung, cánh; không ghi chiều dày cánh)", "**Chưa rõ.** Cần thể hiện đầy đủ"],
+        ["5", "**Bản lề**", "Inox SUS 304, chịu tải ≥ 120 kg/bộ, ≥ 04 bản lề/cánh — Đ.5.3 k.3", "03 bản lề chịu lực SUS 304", "**Không đạt.** Thiếu 01 bản lề/cánh"],
+        ["6", "**Gioăng ngăn khói**", "Bố trí kép: gioăng silicone chịu nhiệt + gioăng than chì tự giãn nở > 150°C, đạt BS EN 1634-3 — Đ.5.3 k.2", "Không thể hiện", "**Thiếu**"],
+        ["7", "**Tay co, thanh thoát hiểm**", "Tay co thủy lực đạt EN 1154; panic bar loại chuyên dụng cho cửa chống cháy — Đ.5.3 k.3", "Panic bar Hafele; tay co thủy lực Hafele", "**Chưa rõ.** Chỉ định nhãn hiệu, không ghi tiêu chuẩn"]
+      ]
+    }
+  },
+  "anh_huong": {
+    "tieu_de": "ẢNH HƯỞNG ĐẾN NGHIỆM THU, CHI PHÍ VÀ TIẾN ĐỘ",
+    "muc": [
+      {
+        "tieu_de": "Về nghiệm thu PCCC",
+        "noi_dung": "Theo Mục 1.3 CDKT-PCCC-REV02, khi có sai khác giữa bản vẽ kiến trúc và chỉ dẫn kỹ thuật PCCC thì chỉ dẫn kỹ thuật và quy chuẩn an toàn cháy phải được tuân thủ tuyệt đối. Cửa D-08 thực hiện theo KT-102 (EI 60, bông 100 kg/m³, không có tấm MgO) sẽ không đáp ứng Điều 5.3 và không đủ điều kiện nghiệm thu: không có biên bản thử đốt đạt EI 90 theo Điều 5.3 khoản 4; không đạt khi kiểm tra cắt mẫu cấu tạo lõi và tỷ trọng bông khoáng theo Mục 8.1; có nguy cơ bị đình chỉ hoặc không đạt nghiệm thu với Cơ quan Cảnh sát PCCC & CNCH theo Mục 8.2."
+      },
+      {
+        "tieu_de": "Về chi phí",
+        "noi_dung": "Theo ghi chú QS trên bản vẽ KT-102, dự toán mời thầu cửa D-08 (10 bộ, tầng 1 đến tầng 5) đang tính theo cửa EI 60. Chênh lệch khi chuyển sang EI 90 như sau:",
+        "bang": {
+          "cot": ["STT", "Phương án", "Diện tích (m²)", "Đơn giá (đ/m²)", "Thành tiền (đ)"],
+          "rong_cm": [1.2, 4.8, 4.4, 3.0, 3.1],
+          "can_giua": [0, 2, 3, 4],
+          "giu_lien": true,
+          "dong": [
+            ["1", "Cửa thép EI 60 (theo KT-102)", "10 × 1,2 × 2,2 = 26,4", "2.450.000", "64.680.000"],
+            ["2", "Cửa thép EI 90 (theo CDKT)", "10 × 1,2 × 2,2 = 26,4", "3.850.000", "101.640.000"],
+            ["", "**Chênh lệch (2) − (1)**", "26,4", "**1.400.000**", "**36.960.000**"]
+          ]
+        },
+        "ghi_chu": "Ghi chú: Đơn giá lấy theo ghi chú QS trên bản vẽ KT-102; diện tích tính theo kích thước ô cửa 1200 × 2200 mm. Giá trị chênh lệch trên chỉ tính cho 10 bộ cửa D-08 từ tầng 1 đến tầng 5."
+      },
+      {
+        "tieu_de": "Về tiến độ",
+        "noi_dung": "Theo Điều 5.3 khoản 4, cửa phải có giấy chứng nhận kiểm định phương tiện PCCC, biên bản thử nghiệm mẫu đốt đạt EI 90 và CO/CQ vật liệu trước khi đưa vào công trình. Việc chậm thống nhất quy cách sẽ ảnh hưởng đến thời gian đặt hàng, sản xuất và kiểm định cửa."
+      }
+    ]
+  },
+  "de_xuat": {
+    "tieu_de": "ĐỀ XUẤT CỦA NHÀ THẦU",
+    "mo_dau": "Để bảo đảm công trình đủ điều kiện nghiệm thu PCCC, Nhà thầu kính đề nghị:",
+    "muc": [
+      "Thống nhất áp dụng **cửa thép chống cháy EI 90** cho toàn bộ cửa D-08 theo đúng Điều 5.3 CDKT-PCCC-REV02, gồm: khung thép mạ điện 1,5 mm sơn tĩnh điện; cánh thép tấm mạ kẽm 1,2 mm mỗi mặt, cánh dày ≥ 50 mm; lõi bông khoáng tỷ trọng ≥ 120 kg/m³ kết hợp tấm MgO dày ≥ 5 mm mỗi bên; gioăng kép (silicone và than chì tự giãn nở) đạt BS EN 1634-3; ≥ 04 bản lề SUS 304/cánh; tay co thủy lực đạt EN 1154; panic bar chuyên dụng cho cửa chống cháy.",
+      "**Tư vấn thiết kế V-Design** phát hành bản vẽ KT-102 REV.03 cập nhật bảng thống kê cửa và ghi chú kỹ thuật cửa D-08 theo nội dung trên; đồng thời rà soát các cửa buồng thang thoát nạn từ tầng hầm B3 đến tầng mái 28.",
+      "**Ban Quản lý dự án** xác nhận phương án xử lý phần chi phí chênh lệch do thay đổi quy cách cửa từ EI 60 sang EI 90 (điều chỉnh dự toán gói thầu hoặc xử lý theo điều khoản hợp đồng).",
+      "Nhà thầu cam kết cung cấp đầy đủ hồ sơ theo Điều 5.3 khoản 4 và phối hợp kiểm tra, nghiệm thu theo Mục 8 của Chỉ dẫn kỹ thuật."
+    ]
+  },
+  "cau_hoi": {
+    "tieu_de": "NỘI DUNG ĐỀ NGHỊ TƯ VẤN THIẾT KẾ VÀ BAN QLDA TRẢ LỜI",
+    "cot_tra_loi": "Trả lời của Tư vấn thiết kế / Ban QLDA",
+    "muc": [
+      "Xác nhận cửa D-08 áp dụng giới hạn chịu lửa EI 90 theo Điều 5.3 CDKT-PCCC-REV02, thay cho EI 60 ghi trên bản vẽ KT-102 REV.02.",
+      "Xác nhận vị trí cửa D-08 (bản vẽ chỉ ghi \"trục (2-3)\", chưa ghi trục C-D) và loại buồng thang bộ (N1 hay N2).",
+      "Cung cấp bảng thống kê cửa buồng thang thoát nạn từ tầng hầm B3 đến tầng mái 28 (KT-102 REV.02 chỉ thống kê tầng 1 đến tầng 5; tài liệu ghi \"Trang 1/2\", Nhà thầu mới nhận được trang 1).",
+      "Cửa D-08 (1200 × 2200 mm) là cửa 1 cánh hay 2 cánh? Nếu 2 cánh, đề nghị bổ sung yêu cầu bộ điều phối đóng cánh (door selector).",
+      "Chỉ tiêu bản lề \"chịu tải tối thiểu 120 kg/bộ\" được hiểu cho từng bản lề hay cho cả bộ bản lề của một cánh?",
+      "Chiều dày thép cánh 1,2 mm tính cho thép nền hay đã gồm lớp mạ; thép cánh mạ kẽm nhúng nóng hay mạ điện?",
+      "Có chấp thuận vật liệu, phụ kiện tương đương về tính năng kỹ thuật (bông khoáng tương đương Rockwool, phụ kiện tương đương Hafele) khi có đầy đủ hồ sơ kiểm định theo Điều 5.3 khoản 4 không?",
+      "Xác nhận biên bản thử nghiệm EI 90 được thực hiện theo TCVN 9383:2012.",
+      "Xác nhận phương án xử lý phần chi phí chênh lệch nêu tại mục IV.2."
+    ]
+  },
+  "tai_lieu_kem_theo": [
+    "Trích Chỉ dẫn kỹ thuật CDKT-PCCC-REV02: Mục 1, Mục 5 (Điều 5.3), Mục 8.",
+    "Trích bản vẽ KT-102 REV.02 (trang 15): Bảng thống kê cửa đi tầng 1 đến tầng 5."
+  ],
+  "ket_luan": "Nhà thầu kính đề nghị Quý đơn vị xem xét, phản hồi bằng văn bản trong thời hạn nêu tại mục I để Nhà thầu kịp triển khai đặt hàng, sản xuất và kiểm định cửa, bảo đảm tiến độ và nghiệm thu PCCC công trình./.",
+  "noi_nhan": ["Như trên;", "Chủ đầu tư (để báo cáo);", "Tư vấn giám sát (để biết);", "Lưu: VT, P.KT."],
+  "ky": {
+    "chuc_danh": ["ĐẠI DIỆN NHÀ THẦU", "CÔNG TY TNHH NGHĨA ĐẠT"],
+    "ho_ten": "……………………………"
+  },
+  "phan_hoi": ["TƯ VẤN THIẾT KẾ V-DESIGN", "BAN QUẢN LÝ DỰ ÁN"]
+}
