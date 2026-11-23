@@ -24,4 +24,22 @@ foreach ($c in $cap) {
   robocopy $nguon $dich /E /NFL /NDL /NJH /NJS /NP | Out-Null
   Write-Host "Da chep: $nguon -> $dich"
 }
+# File CLAUDE.md (global va du an)
+$tep = @(
+  @("$kho\01-UserClaude\CLAUDE.md",  "$env:USERPROFILE\.claude\CLAUDE.md"),
+  @("$kho\02-DuAn-claude\CLAUDE.md", "E:\New folder\CLAUDE.md")
+)
+foreach ($t in $tep) {
+  $nguon = $t[0]; $dich = $t[1]
+  if (-not (Test-Path $nguon)) { Write-Host "Bo qua (kho khong co): $nguon"; continue }
+  if (Test-Path $dich) {
+    New-Item -ItemType Directory -Force $bk | Out-Null
+    $ten = ($dich -replace '[:\\]', '_')
+    Copy-Item $dich "$bk\$ten"
+    Write-Host "Da sao luu: $dich"
+  }
+  New-Item -ItemType Directory -Force (Split-Path $dich) | Out-Null
+  Copy-Item $nguon $dich -Force
+  Write-Host "Da chep: $nguon -> $dich"
+}
 Write-Host "Xong. Mo lai Claude Code de nhan skill."

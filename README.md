@@ -11,8 +11,10 @@ Kho riêng tư (Private). Bản chép từ máy chính ngày 23/11/2026.
 | `02-DuAn-claude\agents\` | `E:\New folder\.claude\agents\` | `E:\New folder\.claude\agents\` |
 | `02-DuAn-claude\commands\` | `E:\New folder\.claude\commands\` | `E:\New folder\.claude\commands\` |
 | `03-Skill-DoBoc_v02\` | `E:\New folder\06-CongCu\01-Skill-DoBoc_v02\` | `E:\New folder\06-CongCu\01-Skill-DoBoc_v02\` |
+| `01-UserClaude\CLAUDE.md` | `C:\Users\<tên máy>\.claude\CLAUDE.md` (global) | `%USERPROFILE%\.claude\CLAUDE.md` |
+| `02-DuAn-claude\CLAUDE.md` | `E:\New folder\CLAUDE.md` (dự án) | `E:\New folder\CLAUDE.md` |
 
-Không có trong kho: CLAUDE.md, thư mục memory, cài đặt (settings.json), MCP, Python và thư viện.
+Không có trong kho: thư mục memory, cài đặt (settings.json), MCP, Python và thư viện.
 
 ## Cài lên máy thứ 2
 
